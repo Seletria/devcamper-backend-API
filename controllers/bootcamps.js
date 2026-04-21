@@ -1,11 +1,7 @@
-
 // @desc.    Get all bootcamps
 // @route    GET /api/v1/bootcamps
 // @access   Public
-
 exports.getBootcamps = (req, res, next) => {
-
-  throw new Error()
   res.status(200).json({ success: true, msg: 'Show all bootcamps' })
 
 }
